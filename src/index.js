@@ -16,6 +16,7 @@ function s(a,b) {
       return a + b + a;
     } else {
       sum(a,b);
+      console.log(a);
       return a + b;
     }  
    
